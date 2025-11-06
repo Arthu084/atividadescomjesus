@@ -37,7 +37,7 @@ export default function PricingSection() {
         <div className="flex items-center justify-center text-center gap-3 text-muted-foreground bg-card/80 p-3 rounded-lg border border-primary/30 max-w-md mx-auto">
             <Users className="w-6 h-6 text-accent shrink-0"/>
             <span className="font-medium text-left text-sm leading-tight">
-              <strong>+ de 5 mil</strong> famílias já transformaram o tempo de tela das crianças em diversão e aprendizado diário.
+              <strong>+ de 5 mil</strong> famílias já transformaram o tempo de tela das crianças em diversão e aprendizado.
             </span>
         </div>
       </div>
