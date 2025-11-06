@@ -28,7 +28,7 @@
       "id": "testimonial-2",
       "description": "Profile picture for the second testimonial.",
       "imageUrl": "https://i.imgur.com/baR1VDX.jpeg",
-      "imageHint": "man smiling"
+      "imageHint": "woman smiling"
     },
     {
       "id": "testimonial-3",
@@ -41,6 +41,18 @@
       "description": "Imagem de depoimento da Camila.",
       "imageUrl": "https://i.imgur.com/mNcEWZj.jpeg",
       "imageHint": "child drawing"
+    },
+    {
+      "id": "testimonial-paula-image",
+      "description": "Imagem de depoimento da Paula.",
+      "imageUrl": "https://i.imgur.com/9DCPgKf.jpeg",
+      "imageHint": "children coloring church"
+    },
+    {
+      "id": "testimonial-familia-image",
+      "description": "Imagem de depoimento da Familia Oliveira.",
+      "imageUrl": "https://i.imgur.com/9SCMWLF.jpeg",
+      "imageHint": "family reading bible"
     },
     {
       "id": "final-cta-background",
