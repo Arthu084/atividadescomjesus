@@ -25,7 +25,7 @@ const plans = [
       { name: "Bônus 2", description: "Calendário da Fé 2026" },
     ],
     isRecommended: true,
-    cta: "COMPRAR AGORA COM DESCONTO",
+    cta: "COMPRAR COM DESCONTO",
     url: "https://app.ombrelone.com/checkout/digital/3y799g6jpv"
   },
 ];
@@ -52,7 +52,7 @@ export default function PricingSection() {
               <CardHeader className="items-center text-center pt-8">
                  {plan.isRecommended && (
                   <div className="bg-brand-green text-accent text-xs font-bold px-3 py-1 rounded-full shadow-lg mb-4">
-                    70% OFF
+                    Apenas Hoje - 70% OFF
                   </div>
                 )}
                 <div className="flex flex-col">
