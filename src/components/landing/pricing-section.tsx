@@ -14,7 +14,7 @@ const plans = [
     price: "R$17,00",
     priceDescription: "Acesso vitalício",
     features: [
-      "100 desenhos bíblicos para ensinar fé enquanto eles se divertem colorindo.",
+      "50 desenhos bíblicos para ensinar fé enquanto eles se divertem colorindo.",
       "Acesso imediato para imprimir quando quiser.",
       "Suporte individual via e-mail para tirar dúvidas.",
     ],
@@ -28,7 +28,7 @@ const plans = [
     price: "R$27,00",
     priceDescription: "Acesso vitalício",
     features: [
-      "Tudo do plano básico, e mais...",
+      "100 Desenhos Bíblicos - Coleção Fé e Alegria",
       "Histórias infantis que tornam o aprendizado espiritual leve e envolvente.",
       "Guia prático para criar momentos de fé em família.",
       "Calendário da Fé 2026 para criar uma rotina divertida e com propósito.",
