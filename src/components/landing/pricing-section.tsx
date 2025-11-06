@@ -15,7 +15,7 @@ const plans = [
     priceDescription: "Acesso vitalício",
     features: [
       "100 Desenhos Bíblicos - Coleção Fé e Alegria",
-      "Histórias infantis que tornam o aprendizado espiritual leve e envolvente.",
+      "25 Histórias infantis que tornam o aprendizado espiritual leve e envolvente.",
       "Guia prático para criar momentos de fé em família.",
       "Calendário da Fé 2026 para criar uma rotina divertida e com propósito.",
       "Acesso imediato para imprimir quando quiser.",
