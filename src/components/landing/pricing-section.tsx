@@ -17,7 +17,7 @@ const plans = [
       "25 Histórias infantis que tornam o aprendizado espiritual leve e envolvente",
       "Guia prático para criar momentos de fé em família",
       "Calendário da Fé 2026 para criar uma rotina divertida e com propósito",
-      "Acesso para imprimir quando quiser",
+      "Imprima quando quiser",
       "Suporte individual via e-mail"
     ],
     bonuses: [
