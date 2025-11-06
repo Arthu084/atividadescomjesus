@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 const plans = [
   {
     name: "Uso Pessoal e Educativo",
-    originalPrice: "R$97",
-    price: "R$27,00",
+    originalPrice: "R$97,90",
+    price: "R$27,90",
     priceDescription: "Acesso vitalício",
     features: [
       "100 Desenhos Bíblicos para colorir",
