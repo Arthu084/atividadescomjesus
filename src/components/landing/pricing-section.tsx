@@ -9,24 +9,24 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: "Kit Completo • Uso Pessoal e Educativo",
+    name: "Uso Pessoal e Educativo",
     originalPrice: "R$97",
     price: "R$27,00",
     priceDescription: "Acesso vitalício",
     features: [
       "100 Desenhos Bíblicos - Coleção Colorindo com Fé e Alegria",
-      "25 Histórias infantis que tornam o aprendizado espiritual leve e envolvente.",
-      "Guia prático para criar momentos de fé em família.",
-      "Calendário da Fé 2026 para criar uma rotina divertida e com propósito.",
-      "Acesso imediato para imprimir quando quiser.",
-      "Suporte individual via e-mail para tirar dúvidas."
+      "25 Histórias infantis que tornam o aprendizado espiritual leve e envolvente",
+      "Guia prático para criar momentos de fé em família",
+      "Calendário da Fé 2026 para criar uma rotina divertida e com propósito",
+      "Acesso para imprimir quando quiser",
+      "Suporte individual via e-mail"
     ],
     bonuses: [
       { name: "Bônus 1", description: "Guia de Atividades em Família" },
       { name: "Bônus 2", description: "Calendário da Fé 2026" },
     ],
     isRecommended: true,
-    cta: "COMPRAR KIT COMPLETO",
+    cta: "COMPRAR AGORA COM DESCONTO",
     url: "https://app.ombrelone.com/checkout/digital/3y799g6jpv"
   },
 ];
@@ -53,7 +53,7 @@ export default function PricingSection() {
               <CardHeader className="items-center text-center pt-8">
                  {plan.isRecommended && (
                   <div className="bg-brand-green text-accent text-xs font-bold px-3 py-1 rounded-full shadow-lg mb-4">
-                    MAIS VENDIDO
+                    MATERIAL EDUCACIONAL COMPLETO - 70% OFF
                   </div>
                 )}
                 <CardTitle className="text-xl font-headline">{plan.name}</CardTitle>
