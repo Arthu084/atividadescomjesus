@@ -33,7 +33,7 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <SectionWrapper className="pt-4 pb-0">
+    <SectionWrapper className="pt-4 pb-4">
       <div className="text-center space-y-2 mb-4">
         <h2 className="text-xl font-headline font-bold text-headline">
           Atividades com Propósito

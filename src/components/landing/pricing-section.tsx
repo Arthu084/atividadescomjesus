@@ -56,7 +56,7 @@ export default function PricingSection() {
                   </div>
                 )}
                 <div className="flex flex-col">
-                  <h3 className="font-headline font-semibold text-xl text-primary-foreground">Kit Colorindo com Fé e Alegria</h3>
+                  <h3 className="font-headline font-semibold text-lg text-primary-foreground">Kit Colorindo com Fé e Alegria</h3>
                   <CardTitle className="text-base font-headline font-semibold">{plan.name}</CardTitle>
                 </div>
                 <div className="text-center">
@@ -112,7 +112,7 @@ export default function PricingSection() {
         </div>
       </div>
 
-       <p className="text-center text-sm text-muted-foreground mt-8 flex items-center justify-center gap-2">
+       <p className="text-center text-sm text-muted-foreground mt-4 flex items-center justify-center gap-2">
         Compra 100% Segura <Shield className="w-4 h-4 text-muted-foreground" />
       </p>
     </SectionWrapper>
