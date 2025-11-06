@@ -3,6 +3,7 @@ import Header from '@/components/landing/header';
 import Footer from '@/components/landing/footer';
 import HeroSection from '@/components/landing/hero-section';
 import CreatorSection from '@/components/landing/creator-section';
+import ForWhoSection from '@/components/landing/for-who-section';
 import BenefitsSection from '@/components/landing/benefits-section';
 import WhatYouGetSection from '@/components/landing/what-you-get-section';
 import TestimonialsSection from '@/components/landing/testimonials-section';
@@ -18,6 +19,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <CreatorSection />
+        <ForWhoSection />
         <ColoringPagesSection />
         <TestimonialsSection />
         <BenefitsSection />
