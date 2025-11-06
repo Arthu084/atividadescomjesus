@@ -13,7 +13,7 @@ const plans = [
     price: "R$27,00",
     priceDescription: "Acesso vitalício",
     features: [
-      "100 Desenhos Bíblicos - Kit Colorindo com Fé e Alegria",
+      "100 Desenhos Bíblicos para colorir e aproximar os pequenos",
       "25 Histórias infantis que tornam o aprendizado espiritual leve e envolvente",
       "Guia prático para criar momentos de fé em família",
       "Calendário da Fé 2026 para criar uma rotina divertida e com propósito",
@@ -56,7 +56,7 @@ export default function PricingSection() {
                   </div>
                 )}
                 <div className="flex flex-col">
-                  <h3 className="font-headline font-semibold text-xl text-primary-foreground">Material Bíblico Completo</h3>
+                  <h3 className="font-headline font-semibold text-xl text-primary-foreground">Kit Colorindo com Fé e Alegria</h3>
                   <CardTitle className="text-base font-headline font-semibold">{plan.name}</CardTitle>
                 </div>
                 <div className="text-center">
