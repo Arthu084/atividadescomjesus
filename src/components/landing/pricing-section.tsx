@@ -1,3 +1,4 @@
+
 "use client";
 
 import { SectionWrapper } from "./section-wrapper";
@@ -8,7 +9,8 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: "Uso Pessoal e Educativo",
+    name: "Momentos de Fé em Família",
+    subtitle: "Kit Colorindo com Fé e Alegria",
     originalPrice: "R$97,90",
     price: "R$27,90",
     priceDescription: "Acesso vitalício",
@@ -56,11 +58,12 @@ export default function PricingSection() {
                   </div>
                 )}
                 <div className="flex flex-col">
-                  <h3 className="font-headline font-semibold text-lg text-primary-foreground">Kit Colorindo com Fé e Alegria</h3>
-                  <CardTitle className="text-base font-headline font-semibold">{plan.name}</CardTitle>
+                  <h3 className="font-headline font-semibold text-lg text-primary-foreground">{plan.name}</h3>
+                  <CardTitle className="text-base font-headline font-semibold">{plan.subtitle}</CardTitle>
                 </div>
                 <div className="text-center">
-                  <p className="text-lg font-semibold text-muted-foreground">De <span className="line-through">{plan.originalPrice}</span> por</p>
+                  <p className="text-sm text-muted-foreground mt-2">Crie momentos leves, divertidos e com propósito com seu filho.</p>
+                  <p className="text-lg font-semibold text-muted-foreground mt-2">De <span className="line-through">{plan.originalPrice}</span> por</p>
                   <div className="text-4xl font-bold font-headline py-2 text-accent">
                     {plan.price}
                   </div>
