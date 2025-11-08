@@ -20,13 +20,13 @@ export default function AudienceSection() {
                         <CardTitle className="text-lg text-center font-headline font-semibold text-primary-foreground">Para quem é o kit?</CardTitle>
                     </CardHeader>
                     <CardContent className="pt-0">
-                        <div className="text-left text-sm text-muted-foreground space-y-2 w-full">
+                        <div className="text-left text-sm text-muted-foreground space-y-3 w-full">
                         {audience.map((item, index) => (
                             <div key={index} className="flex items-start gap-3">
-                            <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                                <Heart className="w-4 h-4 text-red-400" />
-                            </div>
-                            <span>{item}</span>
+                              <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-accent mt-0.5">
+                                <Heart className="w-3 h-3 text-white" fill="white" />
+                              </div>
+                              <span>{item}</span>
                             </div>
                         ))}
                         </div>
