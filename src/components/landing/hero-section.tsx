@@ -19,7 +19,7 @@ export default function HeroSection() {
               Aproxime seus filhos de Deus, mesmo vivendo em um mundo cheio de telas.
             </h1>
             <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              Mais de 100 Atividades Bíblicas prontas para Imprimir, Colorir e Criar momentos de fé em família - do jeito mais simples possível!
+              Mais de <span className="underline">100 Atividades Bíblicas</span> prontas para Imprimir, Colorir e Criar momentos de fé em família - do jeito mais simples possível!
             </h2>
           </div>
         </div>
