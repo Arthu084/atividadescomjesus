@@ -19,7 +19,7 @@ export default function HeroSection() {
               Nestas férias, troque horas de tela por<br /> momentos de fé e conexão em família.
             </h1>
             <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              <strong>+100 atividades bíblicas prontas para imprimir e fazer juntos —</strong><br />divertidas, leves e ideais para manter as crianças ocupadas sem celular.
+              <strong>+100 atividades bíblicas prontas para imprimir 🖨</strong><br />divertidas, leves e ideais para manter as crianças ocupadas sem celular.
             </h2>
           </div>
         </div>
@@ -56,4 +56,3 @@ export default function HeroSection() {
     </section>
   );
 }
-
