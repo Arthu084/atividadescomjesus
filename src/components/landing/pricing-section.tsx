@@ -25,9 +25,10 @@ const plans = [
     bonuses: [
       { name: "Bônus 1", description: "Guia de Atividades em Família" },
       { name: "Bônus 2", description: "Calendário da Fé 2026" },
+      { name: "Bônus 3", description: "Devocional Infantil" },
     ],
     isRecommended: true,
-    cta: "COMPRAR COM DESCONTO",
+    cta: "ACESSAR AGORA COM DESCONTO",
     url: "https://app.ombrelone.com/checkout/digital/3y799g6jpv"
   },
 ];
