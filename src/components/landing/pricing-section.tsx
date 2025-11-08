@@ -32,9 +32,11 @@ const plans = [
 ];
 
 const audience = [
-  "Mães, Pais e Avós",
-  "Catequistas e líderes de ministério infantil",
-  "Qualquer pessoa que queira ensinar a Bíblia de forma criativa",
+  "Mães e Pais que buscam momentos de qualidade e ensino com seus filhos.",
+  "Avós, Tios e Padrinhos que desejam presentear com algo que edifica e diverte.",
+  "Professores de Escola Dominical e Catequistas que precisam de materiais criativos.",
+  "Líderes de Ministério Infantil que querem engajar as crianças com a Palavra.",
+  "Qualquer pessoa que queira plantar sementes de fé nas futuras gerações.",
 ];
 
 export default function PricingSection() {
