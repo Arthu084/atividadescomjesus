@@ -4,11 +4,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Heart, Gift, BookOpen, Users, Milestone } from "lucide-react";
 
 const audience = [
-  { text: "Mães e Pais que buscam momentos de qualidade e ensino com seus filhos.", icon: <Heart className="w-3 h-3 text-white" /> },
-  { text: "Avós, Tios e Padrinhos que desejam presentear com algo que edifica e diverte.", icon: <Gift className="w-3 h-3 text-white" /> },
-  { text: "Professores de Escola Dominical e Catequistas que precisam de materiais criativos.", icon: <BookOpen className="w-3 h-3 text-white" /> },
-  { text: "Líderes de Ministério Infantil que querem engajar as crianças com a Palavra.", icon: <Users className="w-3 h-3 text-white" /> },
-  { text: "Qualquer pessoa que queira plantar sementes de fé nas futuras gerações.", icon: <Milestone className="w-3 h-3 text-white" /> },
+  { text: "Mães e Pais que buscam momentos de qualidade e ensino com seus filhos.", icon: <Heart size={12} fill="hsl(var(--accent))" stroke="hsl(var(--accent-foreground))" /> },
+  { text: "Avós, Tios e Padrinhos que desejam presentear com algo que edifica e diverte.", icon: <Gift size={12} fill="hsl(var(--accent))" stroke="hsl(var(--accent-foreground))" /> },
+  { text: "Professores de Escola Dominical e Catequistas que precisam de materiais criativos.", icon: <BookOpen size={12} fill="hsl(var(--accent))" stroke="hsl(var(--accent-foreground))" /> },
+  { text: "Líderes de Ministério Infantil que querem engajar as crianças com a Palavra.", icon: <Users size={12} fill="hsl(var(--accent))" stroke="hsl(var(--accent-foreground))" /> },
+  { text: "Qualquer pessoa que queira plantar sementes de fé nas futuras gerações.", icon: <Milestone size={12} fill="hsl(var(--accent))" stroke="hsl(var(--accent-foreground))" /> },
 ];
 
 export default function AudienceSection() {
@@ -23,7 +23,7 @@ export default function AudienceSection() {
                         <div className="text-left text-sm text-muted-foreground space-y-3 w-full">
                         {audience.map((item, index) => (
                             <div key={index} className="flex items-start gap-3">
-                              <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-accent mt-0.5">
+                              <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-brand-green mt-0.5">
                                 {item.icon}
                               </div>
                               <span>{item.text}</span>
