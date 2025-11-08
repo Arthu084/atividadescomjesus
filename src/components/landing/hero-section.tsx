@@ -16,10 +16,10 @@ export default function HeroSection() {
         <div className="flex flex-col space-y-6 text-center md:items-center">
           <div className="space-y-4 text-center">
             <h1 className="text-2xl md:text-3xl font-headline font-bold tracking-tight text-headline">
-              Aproxime seus filhos de Deus, mesmo vivendo em um mundo cheio de telas.
+              Estimule o amor de Deus nas crianças, mesmo vivendo em um mundo cheio de telas e distrações
             </h1>
             <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              Mais de <span className="underline">100 Atividades Bíblicas</span> prontas para Imprimir, Colorir e Criar momentos de fé em família - do jeito mais simples possível!
+              Mais de <span className="underline">100 Atividades Bíblicas</span> prontas para Imprimir, Colorir e Criar momentos de fé em família de forma leve e encantadora!
             </h2>
           </div>
         </div>
