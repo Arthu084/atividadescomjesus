@@ -13,8 +13,8 @@ const audience = [
 
 export default function AudienceSection() {
     return (
-        <SectionWrapper className="bg-primary/5 pt-0 pb-8">
-            <div className="max-w-xl mx-auto md:-mt-16 mt-2">
+        <SectionWrapper className="bg-primary/5 pt-12 pb-8">
+            <div className="max-w-xl mx-auto">
                 <Card className="shadow-lg bg-card border-accent/30">
                     <CardHeader>
                         <CardTitle className="text-lg text-center font-headline font-semibold text-primary-foreground">Para quem é o kit?</CardTitle>
