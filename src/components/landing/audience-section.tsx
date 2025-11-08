@@ -1,19 +1,19 @@
 
 import { SectionWrapper } from "./section-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart } from "lucide-react";
+import { Heart, Gift, BookOpen, Users, Milestone } from "lucide-react";
 
 const audience = [
-  "Mães e Pais que buscam momentos de qualidade e ensino com seus filhos.",
-  "Avós, Tios e Padrinhos que desejam presentear com algo que edifica e diverte.",
-  "Professores de Escola Dominical e Catequistas que precisam de materiais criativos.",
-  "Líderes de Ministério Infantil que querem engajar as crianças com a Palavra.",
-  "Qualquer pessoa que queira plantar sementes de fé nas futuras gerações.",
+  { text: "Mães e Pais que buscam momentos de qualidade e ensino com seus filhos.", icon: <Heart className="w-3 h-3 text-white" /> },
+  { text: "Avós, Tios e Padrinhos que desejam presentear com algo que edifica e diverte.", icon: <Gift className="w-3 h-3 text-white" /> },
+  { text: "Professores de Escola Dominical e Catequistas que precisam de materiais criativos.", icon: <BookOpen className="w-3 h-3 text-white" /> },
+  { text: "Líderes de Ministério Infantil que querem engajar as crianças com a Palavra.", icon: <Users className="w-3 h-3 text-white" /> },
+  { text: "Qualquer pessoa que queira plantar sementes de fé nas futuras gerações.", icon: <Milestone className="w-3 h-3 text-white" /> },
 ];
 
 export default function AudienceSection() {
     return (
-        <SectionWrapper className="bg-primary/5 pt-12 pb-8">
+        <SectionWrapper className="pt-12 pb-8">
             <div className="max-w-xl mx-auto">
                 <Card className="shadow-lg bg-card border-accent/30">
                     <CardHeader>
@@ -24,9 +24,9 @@ export default function AudienceSection() {
                         {audience.map((item, index) => (
                             <div key={index} className="flex items-start gap-3">
                               <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-accent mt-0.5">
-                                <Heart className="w-3 h-3 text-white" fill="white" />
+                                {item.icon}
                               </div>
-                              <span>{item}</span>
+                              <span>{item.text}</span>
                             </div>
                         ))}
                         </div>
