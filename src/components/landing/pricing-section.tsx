@@ -84,15 +84,20 @@ export default function PricingSection() {
                 {plan.bonuses && (
                    <div className="border-t border-dashed pt-6 space-y-4">
                       <h4 className="font-headline font-semibold text-center text-xl text-primary-foreground">Bônus Exclusivos:</h4>
-                      <ul className="space-y-3">
+                      <ul className="space-y-4">
                         {plan.bonuses.map((bonus, index) => (
-                           <li key={index} className="flex items-center gap-3">
-                              <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-brand-green text-accent p-0.5">
+                           <li key={index} className="flex items-start gap-3">
+                              <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-brand-green text-accent p-0.5 mt-1">
                                 <Gift className="w-full h-full"/>
                               </div>
-                              <span className="text-secondary-foreground font-semibold">
-                                {bonus.description} - <span className="line-through text-muted-foreground/80">{bonus.oldPrice}</span> por <strong className="text-primary-foreground">{bonus.newPrice}</strong>
-                              </span>
+                              <div className="flex flex-col">
+                                <span className="text-secondary-foreground font-semibold">
+                                  {bonus.description}
+                                </span>
+                                <span className="text-sm">
+                                  de <span className="line-through text-muted-foreground/80">{bonus.oldPrice}</span> por <strong className="text-primary-foreground">{bonus.newPrice}</strong>
+                                </span>
+                              </div>
                            </li>
                         ))}
                       </ul>
