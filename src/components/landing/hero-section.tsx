@@ -16,13 +16,10 @@ export default function HeroSection() {
         <div className="flex flex-col space-y-6 text-center md:items-center">
           <div className="space-y-4 text-center">
             <h1 className="text-2xl md:text-3xl font-headline font-bold tracking-tight text-headline">
-              Seus filhos passam tempo<br className="sm:hidden" /> demais nas telas?
+              Aproxime seus filhos de Deus, mesmo vivendo em um mundo cheio de telas.
             </h1>
             <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              Descubra como reverter essa distração<br className="md:hidden" /> em devoção com o Kit Colorindo com Fé e<br className="md:hidden" /> Alegria — <strong className="text-foreground">São + de 100 Atividades Bíblicas que ensinam sobre a fé de Jesus.</strong>
-              <br />
-              <br className="hidden md:block" />
-              <strong className="text-foreground">📝 Basta imprimir e se divertir!</strong>
+              Mais de 100 Atividades Bíblicas prontas para Imprimir, Colorir e Criar momentos de fé em família - do jeito mais simples possível!
             </h2>
           </div>
         </div>
