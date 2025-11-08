@@ -11,14 +11,14 @@ const testimonials = [
   {
     name: "Camila S.",
     role: "mãe da Maria, 6 anos",
-    quote: "Minha filha pede pra colorir todo dia — e sempre pergunta sobre Jesus!",
+    quote: "Ver minha filha de 6 anos colorindo e fazendo perguntas sobre Jesus aquece meu coração. É incrível como o material despertou a fé nela de um jeito tão puro e natural. Recomendo demais!",
     image: PlaceHolderImages.find(img => img.id === "testimonial-1"),
     testimonialImage: PlaceHolderImages.find(img => img.id === "testimonial-camila-image"),
   },
   {
     name: "Paula F.",
     role: "Professora de Catequese",
-    quote: "Uso com meus alunos na catequese. Eles amam!",
+    quote: "Esse material transformou minhas aulas de catequese! As crianças ficam super envolvidas, aprendendo sobre a Palavra de Deus com alegria e criatividade. É uma bênção!",
     image: PlaceHolderImages.find(img => img.id === "testimonial-2"),
     testimonialImage: PlaceHolderImages.find(img => img.id === "testimonial-paula-image"),
   },
