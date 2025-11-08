@@ -52,7 +52,7 @@ export default function ColoringPagesSection() {
     <SectionWrapper className="pt-8 pb-0">
       <div className="text-center space-y-4 mb-8">
         <h2 className="text-xl font-headline font-bold text-headline max-w-2xl mx-auto">
-          Desenhos com traços delicados e expressões de fé — criados para ensinar valores de forma divertida.
+          Desenhos com traços delicados e expressões de fé — criados para ensinar valores de forma divertida:
         </h2>
       </div>
 
