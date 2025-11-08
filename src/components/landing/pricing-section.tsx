@@ -72,8 +72,10 @@ export default function PricingSection() {
                 {plan.audience && (
                   <div className="text-left text-sm text-muted-foreground mt-4 space-y-2 w-full px-6">
                     {plan.audience.map((item, index) => (
-                      <div key={index} className="flex items-center gap-2">
-                        <Heart className="w-4 h-4 text-red-400" />
+                      <div key={index} className="flex items-start gap-3">
+                        <div className="w-5 h-5 flex items-center justify-center shrink-0">
+                          <Heart className="w-4 h-4 text-red-400" />
+                        </div>
                         <span>{item}</span>
                       </div>
                     ))}
@@ -91,7 +93,7 @@ export default function PricingSection() {
               <CardContent className="space-y-6 flex-grow">
                 <ul className="space-y-3">
                   {plan.features.map((feature, index) => (
-                    <li key={index} className="flex items-center gap-3">
+                    <li key={index} className="flex items-start gap-3">
                       <div className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 bg-accent">
                         <Check className="w-3.5 h-3.5 text-white" />
                       </div>
