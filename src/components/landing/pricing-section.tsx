@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: "Momentos de Fé em Família",
-    subtitle: "Kit Colorindo com Fé e Alegria",
+    name: "Kit Colorindo com Fé e Alegria",
+    subtitle: "Material Completo",
     originalPrice: "R$97,90",
     price: "R$27,90",
     priceDescription: "Acesso vitalício",
