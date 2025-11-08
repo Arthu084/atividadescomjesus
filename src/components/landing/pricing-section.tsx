@@ -16,15 +16,13 @@ const plans = [
     features: [
       "100 Desenhos Bíblicos para colorir",
       "25 Histórias infantis que tornam o aprendizado espiritual leve e envolvente",
-      "Guia prático para criar momentos de fé em família",
-      "Calendário da Fé 2026 para criar uma rotina divertida e com propósito",
       "Imprima quando quiser",
       "Suporte individual via e-mail"
     ],
     bonuses: [
-      { name: "Bônus 1", description: "Guia de Atividades em Família" },
-      { name: "Bônus 2", description: "Calendário da Fé 2026" },
-      { name: "Bônus 3", description: "Devocional Infantil" },
+      { name: "Bônus 1", description: "Devocional Infantil" },
+      { name: "Bônus 2", description: "Guia prático para criar momentos de fé em família" },
+      { name: "Bônus 3", description: "Calendário da Fé 2026 para criar uma rotina divertida e com propósito" },
     ],
     isRecommended: true,
     cta: "KIT COMPLETO COM 70%OFF",
