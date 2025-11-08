@@ -32,7 +32,7 @@ export default function CreatorSection() {
                 Quem está por trás do Colorindo Fé e Alegria
               </h3>
               <p className="text-muted-foreground">
-                “Sou mãe e psicóloga infantil cristã, e percebi que muitas famílias estão lutando contra o excesso de telas. <strong className="text-primary-foreground/90">Criei o Colorindo Fé e Alegria para que pais possam ensinar fé e valores com amor</strong> — de um jeito leve, criativo e longe das telas. Feito com muito carinho, espero que abençoe o seu lar ❤️”
+                “Sou mãe, psicóloga infantil e cristã, e percebi que muitas famílias estão lutando contra o excesso de telas. <strong className="text-primary-foreground/90">Criei o Colorindo Fé e Alegria para que pais possam ensinar fé e valores com amor</strong> — de um jeito leve, criativo e longe das telas. Feito com muito carinho, espero que abençoe o seu lar ❤️”
               </p>
               <p className="font-bold text-lg text-primary-foreground">- Mônica Alencar</p>
             </div>
