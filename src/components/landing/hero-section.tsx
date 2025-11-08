@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="flex flex-col space-y-6 text-center md:items-center">
           <div className="space-y-4 text-center">
             <h1 className="text-xl md:text-3xl font-headline font-bold tracking-tight text-headline">
-              Estimule a Fé de Deus nas crianças<br />Mesmo em um mundo cheio<br />de telas e distrações!
+              Estimule a Fé de Deus nas crianças<br />Mesmo em um mundo cheio de<br />telas e distrações!
             </h1>
             <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
               <strong>+100 Atividades Bíblicas para imprimir 🖨️</strong><br />Crie momentos de fé e conexão em família de forma leve e encantadora 🎨
