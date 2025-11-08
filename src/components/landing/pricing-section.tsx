@@ -57,8 +57,8 @@ export default function PricingSection() {
                 )}
                 <div className="flex flex-col">
                   <h3 className="font-headline font-semibold text-xl text-primary-foreground flex items-center gap-2">
-                    {plan.name}
                     <Gift className="w-6 h-6 text-accent" />
+                    {plan.name}
                   </h3>
                   <CardTitle className="text-base font-headline font-semibold">{plan.subtitle}</CardTitle>
                 </div>
