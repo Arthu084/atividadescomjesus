@@ -59,10 +59,10 @@ export default function TestimonialsSection() {
                 <Image
                   src={testimonial.image.imageUrl}
                   alt={testimonial.image.description}
-                  width={112}
-                  height={112}
+                  width={100}
+                  height={100}
                   data-ai-hint={testimonial.image.imageHint}
-                  className="rounded-full w-28 h-28 object-cover border-4 border-white shadow-md"
+                  className="rounded-full w-24 h-24 object-cover border-4 border-white shadow-md"
                 />
               )}
               <div className="flex flex-col mt-2">
