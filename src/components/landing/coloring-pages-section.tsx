@@ -54,9 +54,6 @@ export default function ColoringPagesSection() {
         <h2 className="text-xl font-headline font-bold text-headline max-w-2xl mx-auto">
           Desenhos com traços delicados e expressões de fé — criados para ensinar valores de forma divertida.
         </h2>
-        <p className="text-center text-muted-foreground text-sm">
-          Cada página foi pensada para unir criatividade, fé e aprendizado — longe das telas.
-        </p>
       </div>
 
       <Carousel
