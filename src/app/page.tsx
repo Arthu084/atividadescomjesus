@@ -12,6 +12,33 @@ import ColoringPagesSection from '@/components/landing/coloring-pages-section';
 import AudienceSection from '@/components/landing/audience-section';
 import CreatorSection from '@/components/landing/creator-section';
 import TargetAudienceSection from '@/components/landing/target-audience-section';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Card, CardContent } from '@/components/ui/card';
+import { SectionWrapper } from '@/components/landing/section-wrapper';
+
+function MovedImage() {
+  const flatlayImage = PlaceHolderImages.find(img => img.id === "flatlay-drawings");
+  if (!flatlayImage) return null;
+  return (
+     <SectionWrapper className="pt-8 pb-4">
+      <div className="flex justify-center">
+        <Card className="overflow-hidden shadow-lg rounded-2xl w-full max-w-md">
+            <CardContent className="p-0">
+                <Image
+                    src={flatlayImage.imageUrl}
+                    alt={flatlayImage.description}
+                    width={600}
+                    height={400}
+                    data-ai-hint={flatlayImage.imageHint}
+                    className="w-full h-auto object-cover"
+                />
+            </CardContent>
+        </Card>
+    </div>
+    </SectionWrapper>
+  )
+}
 
 export default function Home() {
   return (
@@ -25,6 +52,7 @@ export default function Home() {
         <TestimonialsSection />
         <CreatorSection />
         <BenefitsSection />
+        <MovedImage />
         <WhatYouGetSection />
         <PricingSection />
         <FaqSection />
