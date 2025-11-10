@@ -16,10 +16,10 @@ export default function HeroSection() {
         <div className="flex flex-col space-y-6 text-center md:items-center">
           <div className="space-y-4 text-center">
             <h1 className="text-2xl md:text-3xl font-headline font-bold tracking-tight text-headline text-[26px] leading-tight md:leading-snug">
-              Nestas Férias, troque as<br className="md:hidden" /> telas por momentos de<br className="md:hidden" /> Fé e Conexão em Família
+              Cansada das telas tomando o tempo das crianças?
             </h1>
             <h2 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-              <strong>+100 atividades bíblicas prontas para imprimir e colorir com as crianças 👨‍👩‍👦‍👦</strong> - Divertidas, Leves e Ideal para mantê-las ocupadas sem celular!
+              Nessas férias, você pode transformar isso em tempo de fé, conversa e conexão real. <br/><strong>+100 atividades bíblicas prontas para imprimir e colorir com as crianças 🎨</strong>
             </h2>
           </div>
         </div>
