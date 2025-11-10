@@ -33,7 +33,7 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <SectionWrapper className="pt-4 pb-8">
+    <SectionWrapper className="pt-4 pb-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         {benefits.map((benefit, index) => (
           <Card key={index} className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
