@@ -7,7 +7,7 @@ const points = [
   "As telas estão tomando tempo demais das crianças",
   "Os momentos em família estão ficando raros",
   "Ensinar valores está mais difícil do que deveria",
-  "E você queria algo simples para viver mais fé no dia a dia...",
+  "E você queria algo simples para viver mais fé no dia a dia",
 ];
 
 export default function TargetAudienceSection() {
