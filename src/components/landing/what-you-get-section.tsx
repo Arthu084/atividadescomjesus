@@ -2,6 +2,8 @@
 import { SectionWrapper } from "./section-wrapper";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const features = [
   { text: "<strong class=\"font-bold\">100 Atividades Bíblicas para Colorir</strong> — ensinam sobre Jesus enquanto desenvolvem criatividade e concentração." },
@@ -12,6 +14,7 @@ const features = [
 ];
 
 export default function WhatYouGetSection() {
+    const flatlayImage = PlaceHolderImages.find(img => img.id === "flatlay-drawings");
   return (
     <SectionWrapper className="bg-secondary pt-4 pb-12">
         <div className="max-w-xl mx-auto">
@@ -33,6 +36,23 @@ export default function WhatYouGetSection() {
                     </ul>
                 </CardContent>
             </Card>
+
+            {flatlayImage && (
+                <div className="mt-8 flex justify-center">
+                    <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-md">
+                        <CardContent className="p-0">
+                            <Image
+                                src={flatlayImage.imageUrl}
+                                alt={flatlayImage.description}
+                                width={600}
+                                height={400}
+                                data-ai-hint={flatlayImage.imageHint}
+                                className="w-full h-auto object-cover"
+                            />
+                        </CardContent>
+                    </Card>
+                </div>
+            )}
         </div>
     </SectionWrapper>
   );
