@@ -18,6 +18,22 @@ export default function WhatYouGetSection() {
   return (
     <SectionWrapper className="bg-secondary pt-4 pb-12">
         <div className="max-w-xl mx-auto">
+             {flatlayImage && (
+                <div className="mb-8 flex justify-center">
+                    <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-md">
+                        <CardContent className="p-0">
+                            <Image
+                                src={flatlayImage.imageUrl}
+                                alt={flatlayImage.description}
+                                width={600}
+                                height={400}
+                                data-ai-hint={flatlayImage.imageHint}
+                                className="w-full h-auto object-cover"
+                            />
+                        </CardContent>
+                    </Card>
+                </div>
+            )}
             <Card className="shadow-lg bg-card border-accent/20 rounded-2xl p-6 md:p-8">
                 <CardContent className="p-0 flex flex-col items-center text-center gap-4">
                     <h2 className="text-xl font-headline font-bold text-headline">
@@ -36,23 +52,6 @@ export default function WhatYouGetSection() {
                     </ul>
                 </CardContent>
             </Card>
-
-            {flatlayImage && (
-                <div className="mt-8 flex justify-center">
-                    <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-md">
-                        <CardContent className="p-0">
-                            <Image
-                                src={flatlayImage.imageUrl}
-                                alt={flatlayImage.description}
-                                width={600}
-                                height={400}
-                                data-ai-hint={flatlayImage.imageHint}
-                                className="w-full h-auto object-cover"
-                            />
-                        </CardContent>
-                    </Card>
-                </div>
-            )}
         </div>
     </SectionWrapper>
   );
